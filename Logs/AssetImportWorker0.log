@@ -1,0 +1,1395 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Student/Escarcha_Finals
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53252
+Successfully changed project path to: C:/Users/Student/Escarcha_Finals
+C:/Users/Student/Escarcha_Finals
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7508] Host "[IP] 10.0.2.113 [Port] 0 [Flags] 2 [Guid] 3180358263 [EditorId] 3180358263 [Version] 1048832 [Id] WindowsEditor(7,ciit602pc11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7508] Host "[IP] 10.0.2.113 [Port] 0 [Flags] 2 [Guid] 3180358263 [EditorId] 3180358263 [Version] 1048832 [Id] WindowsEditor(7,ciit602pc11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Student/Escarcha_Finals/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005831 seconds.
+- Loaded All Assemblies, in  0.231 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.187 seconds
+Domain Reload Profiling: 417ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (147ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Escarcha_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Escarcha_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 884ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3529.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 3.204000 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.807900 ms  DeleteObjects: 0.082200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16687.198074 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01.fbx
+  artifactKey: Guid(f67a5b37bea489940a7a92ebf6768157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01.fbx using Guid(f67a5b37bea489940a7a92ebf6768157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed32f4632dac882a9ae37cc4d4db1033') in 0.280526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_03.fbx
+  artifactKey: Guid(5a7d76fa813310245a9a6c8684370f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_03.fbx using Guid(5a7d76fa813310245a9a6c8684370f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc07bb16db8c54c3d2e7f801b88d3af') in 0.016351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/grass_02.fbx
+  artifactKey: Guid(8fc067e640c71a54188cc9a775622eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/grass_02.fbx using Guid(8fc067e640c71a54188cc9a775622eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efdd66655a3392d7c0334e8e1b4b0f3') in 0.082578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models
+  artifactKey: Guid(bed6da463590fa649b8a7655e3e1c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models using Guid(bed6da463590fa649b8a7655e3e1c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e86afa19b5290f5933c9d0a0eeef318') in 0.000336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_04.fbx
+  artifactKey: Guid(28f4158f0ebbb6046984f1158aeca0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_04.fbx using Guid(28f4158f0ebbb6046984f1158aeca0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f5a5fdbdd64e5fadd02619db5c2138') in 0.017129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/flower_02.fbx
+  artifactKey: Guid(bb10ad058288afb4baf0e8111627bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/flower_02.fbx using Guid(bb10ad058288afb4baf0e8111627bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ab37405b874d5affbd7d54a2d1bab7') in 0.022101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_06.fbx
+  artifactKey: Guid(702d1fd205c022e478aabbea0877d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_06.fbx using Guid(702d1fd205c022e478aabbea0877d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ffb4b218abd781fa4947c66e47d0fb') in 0.013245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_07.fbx
+  artifactKey: Guid(73398d0dfbecec841a069f575f1db305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_07.fbx using Guid(73398d0dfbecec841a069f575f1db305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46dbd11f0ac89d8184829616833b612') in 0.015008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_02.fbx
+  artifactKey: Guid(8c2ebf7365479d44a9634adae53f7c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_02.fbx using Guid(8c2ebf7365479d44a9634adae53f7c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e674d2b97fd95f3a79ab2b88e2b66') in 0.020269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_01.fbx
+  artifactKey: Guid(95a06f06a0ae78a45b998f0dbccbf94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_01.fbx using Guid(95a06f06a0ae78a45b998f0dbccbf94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2ba753fc2b1ea110bba31594c13b08') in 0.011924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_06.fbx
+  artifactKey: Guid(c4b476cde40d1b94cb40966e3fbaed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_06.fbx using Guid(c4b476cde40d1b94cb40966e3fbaed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c029fd1d311cf49a0f33d06e9e3a36e8') in 0.017329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_01.fbx
+  artifactKey: Guid(cca806a1c4c8a2c44812c40988f1a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_01.fbx using Guid(cca806a1c4c8a2c44812c40988f1a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebf6421ec1183a0320ada65e2aad0ba') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_02.fbx
+  artifactKey: Guid(a3e12c2100d0f6d4ca18d8d242957433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_02.fbx using Guid(a3e12c2100d0f6d4ca18d8d242957433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e2d65c1941acef1769ba1899028366') in 0.012308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/barrel_01.fbx
+  artifactKey: Guid(9c6137d15694f5d46b0629929ae01273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/barrel_01.fbx using Guid(9c6137d15694f5d46b0629929ae01273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adec2339f514a5aad3d4ec11233d27b9') in 0.030560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03.fbx
+  artifactKey: Guid(9185bebce5c8f0d408b00be13300f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03.fbx using Guid(9185bebce5c8f0d408b00be13300f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6459293a77437d2e6957c62a787f927f') in 0.016921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03_closed_01.fbx
+  artifactKey: Guid(cd23df12058bcc3498107666ba9cf5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03_closed_01.fbx using Guid(cd23df12058bcc3498107666ba9cf5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b06d56ba8d57e5bf30675cbd614b1aa') in 0.016122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01_closed.fbx
+  artifactKey: Guid(c068edddd51ebd547866c70986fe9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01_closed.fbx using Guid(c068edddd51ebd547866c70986fe9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe73d8c88cd50da6398a574832ad5412') in 0.015994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_02.fbx
+  artifactKey: Guid(7f75d36ee7242974e9b16b6c330ea7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_02.fbx using Guid(7f75d36ee7242974e9b16b6c330ea7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0afad470cc4b311b094541a755b47c1') in 0.016218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stairs_01.fbx
+  artifactKey: Guid(12016aeb73968c5458f00447a7ca749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stairs_01.fbx using Guid(12016aeb73968c5458f00447a7ca749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1fdc0101031cc097fe75dbe858ac11') in 0.011886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_05.fbx
+  artifactKey: Guid(7de61137bdb0b0d42befc2e277c0597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_05.fbx using Guid(7de61137bdb0b0d42befc2e277c0597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f38c1f8c52f6a579bac16bbe7920656') in 0.012368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_04.fbx
+  artifactKey: Guid(03d7e0d37cdd0934097cc002920e244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_04.fbx using Guid(03d7e0d37cdd0934097cc002920e244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1f437cb70cb2346b5ac265c0f66b08') in 0.012607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/flower_03.fbx
+  artifactKey: Guid(761822da1aa35af48a8594c95b112bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/flower_03.fbx using Guid(761822da1aa35af48a8594c95b112bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f78031b30fe769427904d8d08a191c9') in 0.028078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_02.fbx
+  artifactKey: Guid(ce2dd45fa16adb143a6d2369107b3efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_02.fbx using Guid(ce2dd45fa16adb143a6d2369107b3efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a444ca19cb165ce1ade3fa76e1e1245') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_04.fbx
+  artifactKey: Guid(03a9d27e89c5b0943bd833274469527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_04.fbx using Guid(03a9d27e89c5b0943bd833274469527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f204036c8d38dfa19a1d786ecf60209') in 0.012501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_03.fbx
+  artifactKey: Guid(fe29b2d556a49684ebbfa9c4e6d5735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_03.fbx using Guid(fe29b2d556a49684ebbfa9c4e6d5735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97236d843314e17011e98dea00ac57bc') in 0.011429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001602 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/flower_01.fbx
+  artifactKey: Guid(ef910aff3f044b14caf601370a353ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/flower_01.fbx using Guid(ef910aff3f044b14caf601370a353ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4122afe50a81c897972e43fdd1e283bd') in 0.027919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_04.fbx
+  artifactKey: Guid(2d596492934f7224a8cd4b58ebcee9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_04.fbx using Guid(2d596492934f7224a8cd4b58ebcee9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd99b02bc40caae3a938175f506f6f7e') in 0.021995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_05.fbx
+  artifactKey: Guid(40ddd02c6bf614a45b99b61c12c5399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_05.fbx using Guid(40ddd02c6bf614a45b99b61c12c5399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb1c910b0e33f304fbc50f3f999d40') in 0.021426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Escarcha_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Escarcha_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.389 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (6.7 MB). Loaded Objects now: 5384.
+Memory consumption went from 184.2 MB to 177.5 MB.
+Total: 5.435900 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.287400 ms MarkObjects: 2.527700 ms  DeleteObjects: 2.250400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 82 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (6.8 MB). Loaded Objects now: 5384.
+Memory consumption went from 109.2 MB to 102.3 MB.
+Total: 5.703000 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.258600 ms MarkObjects: 2.668700 ms  DeleteObjects: 2.424900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 711.910162 seconds.
+  path: Assets/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(8c240329e8bf8384ca7282e1989ed50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Universal Render Pipeline Asset.asset using Guid(8c240329e8bf8384ca7282e1989ed50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdce35236aeb9568353c1e5a978d019') in 0.045726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 75.908998 seconds.
+  path: Assets/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(306a9a3ca43533b43a2203af34d8e359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Universal Render Pipeline Asset_Renderer.asset using Guid(306a9a3ca43533b43a2203af34d8e359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c4998361567342fc8fd54483c2c3422') in 0.175412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Scenes/EveryObjectScene.unity
+  artifactKey: Guid(7105f41b7e9f7494ea060b30672b2fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Scenes/EveryObjectScene.unity using Guid(7105f41b7e9f7494ea060b30672b2fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b1eb0b0c69274cafef87193c3c17f41') in 0.008505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_02.fbx
+  artifactKey: Guid(8c2ebf7365479d44a9634adae53f7c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_02.fbx using Guid(8c2ebf7365479d44a9634adae53f7c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93c5c1aed6a58ea2387be4b2d424e41c') in 0.028459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_02_top.mat
+  artifactKey: Guid(49587e57e69ceb049a4aa657205dacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_02_top.mat using Guid(49587e57e69ceb049a4aa657205dacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '443f893c971a085484392221e3b499c7') in 0.025270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/Podium.mat
+  artifactKey: Guid(d901ff455a2cf4a789bbb9906e84b5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/Podium.mat using Guid(d901ff455a2cf4a789bbb9906e84b5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '400f24a9a8bb8b53d8db01cea2f8388b') in 0.013234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_01_top.mat
+  artifactKey: Guid(9dac8c4109475fb46b0d42c0c058e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_01_top.mat using Guid(9dac8c4109475fb46b0d42c0c058e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98fb9b23344c5210e3d031157963f75c') in 0.010484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/flower_02.fbx
+  artifactKey: Guid(bb10ad058288afb4baf0e8111627bfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/flower_02.fbx using Guid(bb10ad058288afb4baf0e8111627bfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74c79093530a2336c9f572f9f4f66b9e') in 0.019688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_04.fbx
+  artifactKey: Guid(28f4158f0ebbb6046984f1158aeca0e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_04.fbx using Guid(28f4158f0ebbb6046984f1158aeca0e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4186cc683744652340a8a642c31e8f6f') in 0.015808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/trailway.mat
+  artifactKey: Guid(9136449bef2d2c942a08e20a7809c2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/trailway.mat using Guid(9136449bef2d2c942a08e20a7809c2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d72213a7bf8b006e2dc5fb08d36c4d') in 0.011040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/barrel_01.fbx
+  artifactKey: Guid(9c6137d15694f5d46b0629929ae01273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/barrel_01.fbx using Guid(9c6137d15694f5d46b0629929ae01273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f18d46b8ba4629a7777873b0f69cca2') in 0.026181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_03.fbx
+  artifactKey: Guid(5a7d76fa813310245a9a6c8684370f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_03.fbx using Guid(5a7d76fa813310245a9a6c8684370f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0969c340b491c4774e89cd7107a09649') in 0.016699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/barrel_01_metal.mat
+  artifactKey: Guid(538267a94aa5b00488fb25df219252fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/barrel_01_metal.mat using Guid(538267a94aa5b00488fb25df219252fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72ac4c0ec4e0d273d8592dd65d5e5f6d') in 0.013551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/house_01.fbx
+  artifactKey: Guid(9dc4b88754cb6534e8e22097b7e84e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/house_01.fbx using Guid(9dc4b88754cb6534e8e22097b7e84e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4615183b3b1b4e18c17d9125ab9a7024') in 0.029326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01.fbx
+  artifactKey: Guid(f67a5b37bea489940a7a92ebf6768157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_01.fbx using Guid(f67a5b37bea489940a7a92ebf6768157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df1bc52d522fe54946464ed1fdc19ab9') in 0.028782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_02.fbx
+  artifactKey: Guid(ce2dd45fa16adb143a6d2369107b3efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_02.fbx using Guid(ce2dd45fa16adb143a6d2369107b3efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bf46ed7bfc07cd177c5d32610f069f1') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_02.fbx
+  artifactKey: Guid(a3e12c2100d0f6d4ca18d8d242957433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_02.fbx using Guid(a3e12c2100d0f6d4ca18d8d242957433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ffdf538363c01d41ba6c77f0e77d347') in 0.015397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/cart_01.prefab
+  artifactKey: Guid(f5bd1b648c2766b40805fae6cab6f017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/cart_01.prefab using Guid(f5bd1b648c2766b40805fae6cab6f017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b867498a71dc460b711c8694b4c740e') in 0.010999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_01.fbx
+  artifactKey: Guid(10de62937a6b85e43a7a810ac2ae0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_01.fbx using Guid(10de62937a6b85e43a7a810ac2ae0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42a8b107d5ecec2e4d32616c5bcb2f0c') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b66a01c2fb6ed545d47d936d7218cf5e') in 0.006574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_04.fbx
+  artifactKey: Guid(03a9d27e89c5b0943bd833274469527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_04.fbx using Guid(03a9d27e89c5b0943bd833274469527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790a957add482bf2d3815ec031e85838') in 0.015732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_02_closed_02.prefab
+  artifactKey: Guid(3af6d9aca89c81a47927cd9857c97282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_02_closed_02.prefab using Guid(3af6d9aca89c81a47927cd9857c97282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39575825582372eff6c0e0daa8addd67') in 0.010809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_06.prefab
+  artifactKey: Guid(d9ad1c471a9c2dd47802fd6a681ecd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_06.prefab using Guid(d9ad1c471a9c2dd47802fd6a681ecd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cae68830f6de39f377aa95af3ed1450') in 0.010036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_04.prefab
+  artifactKey: Guid(2cdb24b0a70d9e64a979e2a9ed55f7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_04.prefab using Guid(2cdb24b0a70d9e64a979e2a9ed55f7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a573c68af65595ed2d19163c3f514695') in 0.010150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_02.prefab
+  artifactKey: Guid(df1e8373c1c992745bcb12a63bb4ddad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_02.prefab using Guid(df1e8373c1c992745bcb12a63bb4ddad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7dc98d8c4f3890eb1a1757741acb095') in 0.009634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/landscape_01.prefab
+  artifactKey: Guid(bc2a2d2cea686b94b9a5d935732119c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/landscape_01.prefab using Guid(bc2a2d2cea686b94b9a5d935732119c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9d071e8db63ff6236a9c3a82d692efa') in 0.010279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_03.prefab
+  artifactKey: Guid(91c7395fc87581b4ab2ca025640d786c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_03.prefab using Guid(91c7395fc87581b4ab2ca025640d786c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c403a285da9eba29dc6a97a4922c482e') in 0.010333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/tree_01.prefab
+  artifactKey: Guid(d6c768eebc3e3324bb2e364c4375f7d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/tree_01.prefab using Guid(d6c768eebc3e3324bb2e364c4375f7d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6baf7c3fafd405f535fc39ba37887c25') in 0.008813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_05.prefab
+  artifactKey: Guid(7e33217e41d0c724ea714e3afbefc971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_05.prefab using Guid(7e33217e41d0c724ea714e3afbefc971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '002348013ce9ff91699960930e0ae541') in 0.010761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat
+  artifactKey: Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat using Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd7286ef885a891b67226a7dd3d04089') in 0.012261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Scenes/PresentationScene.unity
+  artifactKey: Guid(4839c0b98bcc7438d879247aa50389a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Scenes/PresentationScene.unity using Guid(4839c0b98bcc7438d879247aa50389a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3d1672b2fcd0c856e1e7baba508bd73') in 0.007473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/SkyBox.mat
+  artifactKey: Guid(2870bb9a67a3e4f06b9a33ca3fc56ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/SkyBox.mat using Guid(2870bb9a67a3e4f06b9a33ca3fc56ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95541fd85531baa2241923a0433268f4') in 0.009832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/LeafAndGrass.mat
+  artifactKey: Guid(2e1f4f8b4e5215f4890a4e42d3914941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/LeafAndGrass.mat using Guid(2e1f4f8b4e5215f4890a4e42d3914941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '456947dd0cbaa7ec48e882fded420b62') in 0.010501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Textures/flower_03_Albedo.png
+  artifactKey: Guid(2731f16465f22014f8ac841379d31887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Textures/flower_03_Albedo.png using Guid(2731f16465f22014f8ac841379d31887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f077e18f701c212766ca714ed4e3b5c5') in 0.036368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_04.prefab
+  artifactKey: Guid(36ba605db8dae1943822caa918a58644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_04.prefab using Guid(36ba605db8dae1943822caa918a58644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8f2078e5999b054f1a3b6a343a112c0') in 0.008826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_03.fbx
+  artifactKey: Guid(fe29b2d556a49684ebbfa9c4e6d5735c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/fences_vertical_part_03.fbx using Guid(fe29b2d556a49684ebbfa9c4e6d5735c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3139799a98f8ad66e44f654915cc5ae7') in 0.015040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_04.fbx
+  artifactKey: Guid(06bf7876729e20146b434d1a43fe9197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_04.fbx using Guid(06bf7876729e20146b434d1a43fe9197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '566f099445e3c01c781fed47cd81ac3c') in 0.016425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/landscape_02.prefab
+  artifactKey: Guid(38e80406f81d2cd4db0986b686361fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/landscape_02.prefab using Guid(38e80406f81d2cd4db0986b686361fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f80ecd6ccb4f0ca46593ea45a172daa') in 0.010503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/tree_03.fbx
+  artifactKey: Guid(5a3dc97596c6de04bbc7e26c2828b97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/tree_03.fbx using Guid(5a3dc97596c6de04bbc7e26c2828b97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5972a2e3a9bd4d22dfa40055a9433be') in 0.015159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/grass_01.fbx
+  artifactKey: Guid(f08f45e86bad1fe4593d90d9fcbc6033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/grass_01.fbx using Guid(f08f45e86bad1fe4593d90d9fcbc6033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e774c75c7660aebb9d78bd8922ca63ad') in 0.015747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_01.fbx
+  artifactKey: Guid(cca806a1c4c8a2c44812c40988f1a721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_02_closed_01.fbx using Guid(cca806a1c4c8a2c44812c40988f1a721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a145518faa199cc3b2d50883906273d7') in 0.015283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/stairs_01.mat
+  artifactKey: Guid(26c951f1ebdcbbc46a9fc064f0da613e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/stairs_01.mat using Guid(26c951f1ebdcbbc46a9fc064f0da613e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aae1116b532344ca519569af553b567') in 0.011298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_04.fbx
+  artifactKey: Guid(03d7e0d37cdd0934097cc002920e244c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_04.fbx using Guid(03d7e0d37cdd0934097cc002920e244c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85f2f6b81752e3a7fe752d1ade3d657f') in 0.013738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/barrel_01.prefab
+  artifactKey: Guid(3bec5058743290f4c884ed6e3a440d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/barrel_01.prefab using Guid(3bec5058743290f4c884ed6e3a440d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2f84e3529bbb5bdfce328e91b695e52') in 0.007883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_01.fbx
+  artifactKey: Guid(140170d8881f72c4ea261cbe63d34eac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/little_stone_01.fbx using Guid(140170d8881f72c4ea261cbe63d34eac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a67d432b0dad00e7bc350dad88025de8') in 0.017727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Textures/house_01_AO.png
+  artifactKey: Guid(8dfa73b09f05811498400eff8e119f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Textures/house_01_AO.png using Guid(8dfa73b09f05811498400eff8e119f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'effd756d7dda4cab553d949449c533f0') in 0.016409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fance_11.prefab
+  artifactKey: Guid(98e3619974dd73b4096091fd08c93b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fance_11.prefab using Guid(98e3619974dd73b4096091fd08c93b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18edd4819828c01488ec5b70be695a45') in 0.007723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat
+  artifactKey: Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat using Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc07e72d344d882ffe605fe66a8f26c8') in 0.008643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_10.prefab
+  artifactKey: Guid(6f384c885341c7b499cc29581cede1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_10.prefab using Guid(6f384c885341c7b499cc29581cede1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a503328f64983ea7a818fcbb16bd34c') in 0.007314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/plank_02.prefab
+  artifactKey: Guid(a3617302c91e4fc438c43b22e4a4e805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/plank_02.prefab using Guid(a3617302c91e4fc438c43b22e4a4e805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d934718c0bb806349680358cbbff145') in 0.010307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_05.fbx
+  artifactKey: Guid(7de61137bdb0b0d42befc2e277c0597c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_05.fbx using Guid(7de61137bdb0b0d42befc2e277c0597c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '524fa756fd72e45d75d1e18b8282768b') in 0.011627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stairs_01.prefab
+  artifactKey: Guid(86d67c8980bc4cd4f847b3877b973f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stairs_01.prefab using Guid(86d67c8980bc4cd4f847b3877b973f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc23f92f4675e56d9e090ee57c07e04d') in 0.009454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/house_01.prefab
+  artifactKey: Guid(254bd85c722f56a45b620ef7ca823317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/house_01.prefab using Guid(254bd85c722f56a45b620ef7ca823317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54b800b7358b98e03afc9b68b28a0b22') in 0.008624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/plank_01.prefab
+  artifactKey: Guid(819046b4e90d9c24e93ec241ae2315c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/plank_01.prefab using Guid(819046b4e90d9c24e93ec241ae2315c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a297e9621e3659a7b143694161a6123') in 0.007638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_05.fbx
+  artifactKey: Guid(5fb7981100db6c343ac02566e0581e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_05.fbx using Guid(5fb7981100db6c343ac02566e0581e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e2ed577aab3195c65c1a53e6737afd2') in 0.014421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/plank_01.fbx
+  artifactKey: Guid(585c7545a6e77d040aa928e478e0832a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/plank_01.fbx using Guid(585c7545a6e77d040aa928e478e0832a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9500a226cadd30e9ee6d59d465e90ba1') in 0.014424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stairs_01.fbx
+  artifactKey: Guid(12016aeb73968c5458f00447a7ca749d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stairs_01.fbx using Guid(12016aeb73968c5458f00447a7ca749d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c455713bb39de6c0b742f11b15480d83') in 0.012931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/tree_02.prefab
+  artifactKey: Guid(af0bed822f9e6d04ca3a89c011d44142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/tree_02.prefab using Guid(af0bed822f9e6d04ca3a89c011d44142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf5f9a392c8932a08a86e6c4d92c41e1') in 0.006644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03_closed_01.fbx
+  artifactKey: Guid(cd23df12058bcc3498107666ba9cf5c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03_closed_01.fbx using Guid(cd23df12058bcc3498107666ba9cf5c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '080c7e36256d01244c6d8c622d9db5dd') in 0.015013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_main.mat
+  artifactKey: Guid(df8452c07a7a78e408a012dd3ec5bcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_main.mat using Guid(df8452c07a7a78e408a012dd3ec5bcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8634440389a4a1770aecaca1b52934f1') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_01.fbx
+  artifactKey: Guid(95a06f06a0ae78a45b998f0dbccbf94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_01.fbx using Guid(95a06f06a0ae78a45b998f0dbccbf94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f3949c2b8522dd1a97b1d1b9cc10073') in 0.014949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_06.prefab
+  artifactKey: Guid(b9ffbd1ea71ffcc40b9a601fbb5a7ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_06.prefab using Guid(b9ffbd1ea71ffcc40b9a601fbb5a7ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40aff2a0265dcb31467138b46b18ac9a') in 0.008168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03.fbx
+  artifactKey: Guid(9185bebce5c8f0d408b00be13300f23b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/trailway_03.fbx using Guid(9185bebce5c8f0d408b00be13300f23b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad9781501bfdf3b0f1840a494339747') in 0.015526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_02_closed_01.prefab
+  artifactKey: Guid(92e32177790b43645a09f4f18fe01a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_02_closed_01.prefab using Guid(92e32177790b43645a09f4f18fe01a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f5411953313bf30408db5243f1087c7') in 0.009452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.005107 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/fances.mat
+  artifactKey: Guid(fd3e1dcd577ba6643ab93e93280e9c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/fances.mat using Guid(fd3e1dcd577ba6643ab93e93280e9c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1ba9498647621cc77c63be4cb05d9ae') in 0.010736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/7planks_01.prefab
+  artifactKey: Guid(cf2e2f2a20611e448a6f744afda63faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/7planks_01.prefab using Guid(cf2e2f2a20611e448a6f744afda63faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fe230ea5e4dc57dfaf5e33d924da4d3') in 0.008107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/stone_02.fbx
+  artifactKey: Guid(4306e1fc031fc3d49b084307e88d6e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/stone_02.fbx using Guid(4306e1fc031fc3d49b084307e88d6e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdfc6d5805bcf09e70d87738541a24a7') in 0.012737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_01.prefab
+  artifactKey: Guid(a6b5d41519eefeb46be3660d3a128ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_01.prefab using Guid(a6b5d41519eefeb46be3660d3a128ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efe2fabb7bef31e6df12f267d6f4f211') in 0.008886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_center.mat
+  artifactKey: Guid(084a8e0b8bc1d5142a434c5f70dd89d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_center.mat using Guid(084a8e0b8bc1d5142a434c5f70dd89d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08259d39af7cfcefa7391177327bf9f3') in 0.008656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Models/landscape_01.fbx
+  artifactKey: Guid(261ff3dd765c6b44c99b090fa252965d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Models/landscape_01.fbx using Guid(261ff3dd765c6b44c99b090fa252965d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '307d2db11542cf059dd338ee95deda7c') in 0.012535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.039630 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_03_closed_02.prefab
+  artifactKey: Guid(5c544efed2677384cb3cb6123f68ed45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/SoloObjects/trailway_03_closed_02.prefab using Guid(5c544efed2677384cb3cb6123f68ed45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '519bb635cfee00a5b23b340c05107864') in 0.010447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Scenes/PresentationScene/Global Volume Profile.asset
+  artifactKey: Guid(f0c0eddd30ada4ba6b6a0db4b9692566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Scenes/PresentationScene/Global Volume Profile.asset using Guid(f0c0eddd30ada4ba6b6a0db4b9692566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be55441325a00c4c03999c1775ab13ae') in 0.014538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 82 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (6.8 MB). Loaded Objects now: 5384.
+Memory consumption went from 109.4 MB to 102.6 MB.
+Total: 6.567000 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.148600 ms MarkObjects: 3.362500 ms  DeleteObjects: 2.627800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2.444405 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(dee6af240fd0f984582c05b054109fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(dee6af240fd0f984582c05b054109fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aaa2a075f628e13967b05e4320a634') in 0.002059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.975163 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_03_Albedo.mat
+  artifactKey: Guid(d0acdb497b650e34cb50e02ac881625d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_03_Albedo.mat using Guid(d0acdb497b650e34cb50e02ac881625d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b023baf05b07fbda43aac3c7900626c') in 0.011497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/barre_01l_wood.mat
+  artifactKey: Guid(21336316c1953c841ac00b019570ff43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/barre_01l_wood.mat using Guid(21336316c1953c841ac00b019570ff43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b4952b30d7c96f5b26e741150955017') in 0.013678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/landscape.mat
+  artifactKey: Guid(2442ce0cd8f6a534c842e7c4c8b4e935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/landscape.mat using Guid(2442ce0cd8f6a534c842e7c4c8b4e935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c48556bd36fd13b9cfdfeec9bad1abf1') in 0.008878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_metal.mat
+  artifactKey: Guid(5a6c928af12c1634facd0ed9c8013eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_metal.mat using Guid(5a6c928af12c1634facd0ed9c8013eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf8cdb8e385397cd46296ed3f6fbbc3b') in 0.011571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat
+  artifactKey: Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat using Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baa458650abb70995e5550a6f51e50ac') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/tree_trunk.mat
+  artifactKey: Guid(7a9aca32dd224a44a90d061f35542e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/tree_trunk.mat using Guid(7a9aca32dd224a44a90d061f35542e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4db3a8d0403fa2607beb4d65caf82068') in 0.010934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/stairs_01.mat
+  artifactKey: Guid(26c951f1ebdcbbc46a9fc064f0da613e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/stairs_01.mat using Guid(26c951f1ebdcbbc46a9fc064f0da613e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1b7e0934ec3ccb086d4ea899c20ace7') in 0.011816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat
+  artifactKey: Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat using Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41d5fb4bc684adedcd423e6877d8102e') in 0.011687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_main.mat
+  artifactKey: Guid(df8452c07a7a78e408a012dd3ec5bcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_main.mat using Guid(df8452c07a7a78e408a012dd3ec5bcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd90b64c005546a3ebe894a0b4f1701cc') in 0.013561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_light_wood.mat
+  artifactKey: Guid(08fec52d580ccab4487541c9e6276f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_light_wood.mat using Guid(08fec52d580ccab4487541c9e6276f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ad874f4efa363b5b167276016e45076') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_center.mat
+  artifactKey: Guid(084a8e0b8bc1d5142a434c5f70dd89d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_center.mat using Guid(084a8e0b8bc1d5142a434c5f70dd89d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fef22948e75e1242ae98024d6bb6fc2') in 0.012436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 8c240329e8bf8384ca7282e1989ed50e
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (4.5 MB). Loaded Objects now: 5466.
+Memory consumption went from 116.1 MB to 111.6 MB.
+Total: 6.736000 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.523800 ms MarkObjects: 3.771400 ms  DeleteObjects: 2.013200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.572769 seconds.
+  path: Assets/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(306a9a3ca43533b43a2203af34d8e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Universal Render Pipeline Asset_Renderer.asset using Guid(306a9a3ca43533b43a2203af34d8e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96afed98405821b586fe188ceda38200') in 0.027730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.837429 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/barrel_01_metal.mat
+  artifactKey: Guid(538267a94aa5b00488fb25df219252fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/barrel_01_metal.mat using Guid(538267a94aa5b00488fb25df219252fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '596f5092c868aa75fe9a3dc86b90a0ff') in 0.010856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_01_top.mat
+  artifactKey: Guid(9dac8c4109475fb46b0d42c0c058e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/flower_01_top.mat using Guid(9dac8c4109475fb46b0d42c0c058e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e80446e68f8698314fc388e30766d8f1') in 0.010371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/trailway.mat
+  artifactKey: Guid(9136449bef2d2c942a08e20a7809c2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/trailway.mat using Guid(9136449bef2d2c942a08e20a7809c2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a33bfa416d81d80412a2dd9713120873') in 0.010118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_metal.mat
+  artifactKey: Guid(5a6c928af12c1634facd0ed9c8013eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/cart_01_metal.mat using Guid(5a6c928af12c1634facd0ed9c8013eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ad80ba2fe427ff8526335f9d17978a0') in 0.010386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat
+  artifactKey: Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_emission.mat using Guid(17fa94891ad6e1a4e96185e77427f72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '306f6629d8946c65e864da39261ab74b') in 0.008777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat
+  artifactKey: Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/stones.mat using Guid(822f476ca3b34b743b52c359fc26200f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b67e6b276ef86260268cd503f6478ae9') in 0.011981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_pipe.mat
+  artifactKey: Guid(35bca24f9c1901a488a923d8e55e5756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/house_01_pipe.mat using Guid(35bca24f9c1901a488a923d8e55e5756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aa17e74b15405ea518e857bc64140d2') in 0.010561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Materials/fances.mat
+  artifactKey: Guid(fd3e1dcd577ba6643ab93e93280e9c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Materials/fances.mat using Guid(fd3e1dcd577ba6643ab93e93280e9c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86f1dc782f708ba22c6089c41ef7894a') in 0.009482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
